@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-size: 1.6rem;
+    font-family: var(--font-poppins);
+}
+.jumbotron{
+    background-image: url(assets/images/triangle-dark-bg.svg);
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.jumbotron>.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.jumbotron>.nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron>h1{
+    font-family: var(--font-manrope);
+    font-size: 4rem;
+    text-align: center;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.task>.buildResume{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(24, 24, 50);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task>.buildResume>button{
+    height: 60px;
+    width: 200px;
+    /* padding: 10px 20px; */
+    background-color: #173d07;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.task>.buildResume>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.task>.buildResume>button:hover{
+    transform: scale(1.1);
+}
+
+.task>.findJob{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(24, 24, 50);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task>.findJob>button{
+    height: 60px;
+    width: 210px;
+    /* padding: 10px 20px; */
+    background-color: #173d07;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.task>.findJob>button:hover{
+    transform: scale(1.1);
+}
+.task>.findJob>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
