@@ -27,12 +27,18 @@ body{
     padding: 2rem;
 }
 .jumbotron>.nav>ul{
+   
+    background-color: rgb(35, 35, 60);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
     list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.jumbotron>.nav>ul>li>a{
     text-decoration: none;
     color: white;
 }
