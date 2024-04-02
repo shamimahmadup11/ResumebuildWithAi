@@ -47,8 +47,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-bottom: 30px;
 }
 .task>.buildResume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 400px;
     background-color: rgb(24, 24, 50);
@@ -72,13 +77,17 @@ body{
 .task>.buildResume>button>a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 .task>.buildResume>button:hover{
     transform: scale(1.1);
 }
 
 .task>.findJob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 400px;
     background-color: rgb(24, 24, 50);
@@ -90,7 +99,7 @@ body{
 }
 .task>.findJob>button{
     height: 60px;
-    width: 210px;
+    width: 200px;
     /* padding: 10px 20px; */
     background-color: #173d07;
     color: #fff;
@@ -105,5 +114,39 @@ body{
 .task>.findJob>button>a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
+}
+.task>.searchJob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(24, 24, 50);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.task>.searchJob>button{
+    height: 60px;
+    width: 200px;
+    /* padding: 10px 20px; */
+    background-color: #173d07;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.task>.searchJob>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.task>.searchJob>button:hover{
+    transform: scale(1.1);
 }
